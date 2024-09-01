@@ -1,0 +1,11 @@
+@baseUrl = http://localhost:3333
+
+# @name post_todo
+POST {{baseUrl}}/todos
+Content-Type: application/json
+
+{
+  "text": "Buy milk"
+}
+
+###
